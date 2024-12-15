@@ -45,5 +45,6 @@ public class C02_WebDriverMethodlari {
         //driver.close(); // actigimiz driver'i kapatir
         // aralarindaki fark close() sadece 1 window kapatir
         // quit() ise test sirasinda birden fazla windows acilsa da hepsini kapatir
+
     }
 }

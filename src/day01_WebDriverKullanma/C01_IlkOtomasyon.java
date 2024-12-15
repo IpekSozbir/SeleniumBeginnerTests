@@ -11,7 +11,7 @@ public class C01_IlkOtomasyon {
         // bir WebDriver edinmeliyiz
 
         // en ilkel haliyle WebDriver edinmek icin
-        // Java'dan yardim alacagiz
+        // Java'dan yardim alalim
 
         System.setProperty("Webdriver.chrome.driver","kurulumDosyalari/chromedriver");
         WebDriver driver = new ChromeDriver();
