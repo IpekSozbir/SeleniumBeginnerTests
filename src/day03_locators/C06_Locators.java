@@ -1,4 +1,4 @@
-package day03_locaters;
+package day03_locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
 
-public class C06_Locaters {
+public class C06_Locators {
 
     public static void main(String[] args) throws InterruptedException {
 
