@@ -18,7 +18,7 @@ public class TestPractice2 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 
-        // 1- https://www.testotomasyonu.com/ sayfasına gidin.
+        // 1- https://www.testotomasyonu.com/ sayfasına gidin
         driver.get("https://www.testotomasyonu.com/");
 
 

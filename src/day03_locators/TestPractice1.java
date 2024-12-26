@@ -23,7 +23,6 @@ public class TestPractice1 {
 
         // 2- https://www.automationexercise.com/ adresine gidin
         driver.get("https://www.automationexercise.com/");
-
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
 
