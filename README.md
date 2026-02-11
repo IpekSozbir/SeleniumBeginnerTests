@@ -26,6 +26,61 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 | *IntelliJ IDEA* | Geliştirme ortamı (IDE) |
 
 	⁠⚠️ Bu projede *Maven, JUnit veya TestNG kullanılmamaktadır.*  
-	⁠Testler ⁠ main ⁠ metodu üzerinden, doğrudan Java sınıfları çalıştırılarak yürütülür.
+	⁠Testler ⁠ main ⁠ metodu üzerinden, doğrudan Java classları çalıştırılarak yürütülür.
 
 ---
+
+## 📁 Proje Yapısı
+
+⁠ SeleniumBeginnerTests/
+├── .idea/ # IntelliJ IDEA proje ayarları
+├── kurulumDosyalari/ # Gerekli kurulum dosyaları
+│ ├── selenium-java-4.26.0/ # Selenium kütüphaneleri
+│ └── chromedriver.exe # ChromeDriver
+├── src/
+│ ├── day01_WebDriverKullanma/ # WebDriver temel kullanımı
+│ │ ├── C01_IlkOtomasyon.java
+│ │ └── C02_WebDriverMethodlari.java
+│ ├── day02_driverMethodlari_webElementKullanimi/ # Driver ve navigasyon metodları
+│ │ ├── C01_IlkTestOtomasyonu.java
+│ │ ├── C02_DriverNavigateMethodlari.java
+│ │ ├── C03_DriverManageMethodlari.java
+│ │ ├── C04_DriverManageMethodlari.java
+│ │ ├── C05_WebElementKullanma.java
+│ │ └── C06_ByClassName.java
+│ │ └── TestPractice_1.java
+│ │ └── TestPractice_2.java
+│ │ └── TestPractice_3.java
+│ │ └── TestPractice_4.java
+│ ├── day03_locators/ # Locator kullanımları
+│ │ ├── C01_ByClassName.java
+│ │ ├── C02_Locators.java
+│ │ ├── C03_ByLinkText.java
+│ │ ├── C04_Xpath.java
+│ │ ├── C05_Xpath_TextKullanimi.java
+│ │ └── C06_Locators.java
+│ ├── day04_relativeLocators/ # Relative Locator örnekleri
+│ │ └── C01_RelativeLocators.java
+├── .gitignore
+└── SeleniumBeginnerTests.iml
+ ⁠
+
+---
+
+## 🧪 Test Yapısı ve Mantığı
+
+•⁠  ⁠Her class *bağımsızdır* ve kendi ⁠ main ⁠ metoduna sahiptir  
+•⁠  ⁠Testler doğrudan çalıştırılarak sonuç gözlemlenir  
+•⁠  ⁠Selenium WebDriver kullanılarak:
+  - Tarayıcı açma
+  - URL'e gitme
+  - Element bulma
+  - Tıklama
+  - Yazı gönderme
+  - Sayfa bilgilerini alma  
+  gibi temel işlemler uygulanır
+
+Bu yapı, test framework karmaşasına girmeden Selenium mantığını öğrenmeyi hedefler.
+
+---
+
