@@ -36,8 +36,7 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 ├── .idea/ # IntelliJ IDEA proje ayarları
 ├── kurulumDosyalari/ # Gerekli kurulum dosyaları
 │ ├── selenium-java-4.26.0/ # Selenium kütüphaneleri
-│ └── chromedriver.exe # ChromeDriver
-├── src/
+│ └── chromedriver.exe # ChromeDriver ├── src/
 │ ├── day01_WebDriverKullanma/ # WebDriver temel kullanımı
 │ │ ├── C01_IlkOtomasyon.java
 │ │ └── C02_WebDriverMethodlari.java
@@ -69,7 +68,7 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 
 ## 🧪 Test Yapısı ve Mantığı
 
-•⁠  ⁠Her class *bağımsızdır* ve kendi ⁠ main ⁠ metoduna sahiptir  
+•⁠  ⁠Her sınıf *bağımsızdır* ve kendi ⁠ main ⁠ metoduna sahiptir  
 •⁠  ⁠Testler doğrudan çalıştırılarak sonuç gözlemlenir  
 •⁠  ⁠Selenium WebDriver kullanılarak:
   - Tarayıcı açma
@@ -84,3 +83,32 @@ Bu yapı, test framework karmaşasına girmeden Selenium mantığını öğrenme
 
 ---
 
+
+### 📌 Çalıştırma Adımları
+
+1.⁠ ⁠Repository'i klonlayın:
+
+git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
+
+
+2.⁠ ⁠IntelliJ IDEA ile projeyi açın
+
+3.⁠ ⁠⁠ kurulumDosyalari ⁠ içindeki:
+   - ⁠ selenium-java-4.26.0 ⁠ kütüphanelerini
+   - ⁠ chromedriver.exe ⁠ dosyasını
+   
+   projeye ekleyin
+
+4.⁠ ⁠İstediğiniz test sınıfını açın ve *main metodunu çalıştırın*
+
+---
+
+## 📌 Öğrenilen Konular
+
+•⁠  ⁠WebDriver oluşturma
+•⁠  ⁠⁠ get() ⁠, ⁠ navigate() ⁠, ⁠ manage() ⁠ metodları
+•⁠  ⁠⁠ WebElement ⁠ kullanımı
+•⁠  ⁠⁠ By.id ⁠, ⁠ By.className ⁠, ⁠ By.linkText ⁠
+•⁠  ⁠⁠ XPath ⁠ ile element bulma
+•⁠  ⁠Relative Locators
+•⁠  ⁠Temel test senaryosu yazımı
