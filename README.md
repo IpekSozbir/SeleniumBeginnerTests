@@ -32,7 +32,7 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 
 ## 📁 Proje Yapısı
 
-⁠ SeleniumBeginnerTests/
+```SeleniumBeginnerTests/
 ├── .idea/ # IntelliJ IDEA proje ayarları
 ├── kurulumDosyalari/ # Gerekli kurulum dosyaları
 │ ├── selenium-java-4.26.0/ # Selenium kütüphaneleri
@@ -62,7 +62,7 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 │ │ └── C01_RelativeLocators.java
 ├── .gitignore
 └── SeleniumBeginnerTests.iml
- ⁠
+```⁠
 
 ---
 
@@ -105,10 +105,11 @@ git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
 
 ## 📌 Öğrenilen Konular
 
-•⁠  ⁠WebDriver oluşturma
+```•⁠  ⁠WebDriver oluşturma
 •⁠  ⁠⁠ get() ⁠, ⁠ navigate() ⁠, ⁠ manage() ⁠ metodları
 •⁠  ⁠⁠ WebElement ⁠ kullanımı
 •⁠  ⁠⁠ By.id ⁠, ⁠ By.className ⁠, ⁠ By.linkText ⁠
 •⁠  ⁠⁠ XPath ⁠ ile element bulma
 •⁠  ⁠Relative Locators
 •⁠  ⁠Temel test senaryosu yazımı
+```
