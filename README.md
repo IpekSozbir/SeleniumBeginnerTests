@@ -105,7 +105,6 @@ git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
 
 ## 📌 Öğrenilen Konular
 
-```
 •⁠  ⁠WebDriver oluşturma
 •⁠  ⁠⁠ get() ⁠, ⁠ navigate() ⁠, ⁠ manage() ⁠ metodları
 •⁠  ⁠⁠ WebElement ⁠ kullanımı
