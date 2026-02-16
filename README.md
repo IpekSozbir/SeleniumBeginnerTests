@@ -130,3 +130,37 @@ git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
  ## 📝 Lisans
  
  Bu proje *kişisel eğitim ve portföy* amaçlıdır.
+
+ ---
+
+ ## 🌐 SeleniumBeginnerTests
+  
+  This repository contains *beginner-level* automation test examples focused on the use of *Selenium WebDriver, developed using the **Java* programming language. The project consists of examples that aim to teach the *Java + Selenium* logic directly, without using any test framework (*JUnit, TestNG, Maven, etc.*).
+  
+  The tests are packaged and categorized in a way that teaches Selenium's core concepts step by step.
+  
+  ---
+  
+  ## 🎯 Project Purpose
+  
+  - Learn the *basic usage* of Selenium WebDriver  
+  - Understand browser automation logic with Java  
+  - Teach interaction with web elements  
+  - Demonstrate locator strategies in practice  
+  - Provide simple and understandable examples for beginners in test automation  
+  
+  ---
+  
+  ## 🛠️ Technologies and Tools Used
+  
+  | Technology | Description |
+  |----------|----------|
+  | *Java* | Automation test language |
+  | *Selenium WebDriver* | Web browser automation |
+  | *ChromeDriver* | WebDriver for Google Chrome |
+  | *IntelliJ IDEA* | Development environment (IDE) |
+  
+  > ⚠️ In this project, *Maven, JUnit or TestNG are NOT used.*  
+  > Tests are executed directly by running Java classes through the ⁠ main ⁠ method.
+  
+  ---
