@@ -30,7 +30,7 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 
 ---
 
-## 📁 Proje Yapısı
+ 📁 Proje Yapısı
 
 ```SeleniumBeginnerTests/
 ├── .idea/ # IntelliJ IDEA proje ayarları
@@ -68,7 +68,7 @@ Testler, Selenium’un temel kavramlarını adım adım öğrenmeye yönelik ola
 
 ## 🧪 Test Yapısı ve Mantığı
 
-•⁠  ⁠Her sınıf *bağımsızdır* ve kendi ⁠ main ⁠ metoduna sahiptir  
+•⁠  ⁠Her class *bağımsızdır* ve kendi ⁠ main ⁠ metoduna sahiptir  
 •⁠  ⁠Testler doğrudan çalıştırılarak sonuç gözlemlenir  
 •⁠  ⁠Selenium WebDriver kullanılarak:
   - Tarayıcı açma
@@ -99,7 +99,7 @@ git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
    
    projeye ekleyin
 
-4.⁠ ⁠İstediğiniz test sınıfını açın ve *main metodunu çalıştırın*
+4.⁠ ⁠İstediğiniz test classını açın ve *main metodunu çalıştırın*
 
 ---
 
@@ -164,3 +164,55 @@ git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
   > Tests are executed directly by running Java classes through the ⁠ main ⁠ method.
   
   ---
+
+## :file_folder: Project Structure
+
+## 📁 Project Structure
+
+```
+SeleniumBeginnerTests/
+├── .idea/
+├── kurulumDosyalari/
+│   ├── selenium-java-4.26.0/
+│   └── chromedriver.exe
+├── src/
+│   ├── day01_WebDriverKullanma/
+│   │   ├── C01_IlkOtomasyon.java
+│   │   └── C02_WebDriverMethodlari.java
+│   ├── day02_driverMethodlari_webElementKullanimi/
+│   │   ├── C01_IlkTestOtomasyonu.java
+│   │   ├── C02_DriverNavigateMethodlari.java
+│   │   ├── C03_DriverManageMethodlari.java
+│   │   ├── C04_DriverManageMethodlari.java
+│   │   ├── C05_WebElementKullanma.java
+│   │   ├── C06_ByClassName.java
+│   │   ├── TestPractice_1.java
+│   │   ├── TestPractice_2.java
+│   │   ├── TestPractice_3.java
+│   │   └── TestPractice_4.java
+│   ├── day03_locators/
+│   │   ├── C01_ByClassName.java
+│   │   ├── C02_Locators.java
+│   │   ├── C03_ByLinkText.java
+│   │   ├── C04_Xpath.java
+│   │   ├── C05_Xpath_TextKullanimi.java
+│   │   └── C06_Locators.java
+│   └── day04_relativeLocators/
+│       └── C01_RelativeLocators.java
+├── .gitignore
+└── SeleniumBeginnerTests.iml
+```
+
+---
+## :test_tube: Test Structure and Logic
+* Each class is independent and has its own main method
+* Tests are executed directly and results are observed
+* Using Selenium WebDriver:
+     - Opening the browser
+     - Navigating to a URL
+     - Finding elements
+     - Clicking
+     - Sending text input
+     - Retrieving page information
+     basic operations are implemented
+* This structure aims to teach Selenium logic without the complexity of test frameworks.
