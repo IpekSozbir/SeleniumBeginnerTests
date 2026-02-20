@@ -229,3 +229,16 @@ git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
     - Add the chromedriver.exe file
   to the project    
 4. Open any desired test class and ** run the main method**
+
+---
+
+## :pushpin:Topics Learned
+- Creating WebDriver
+- get(), navigate(), manage() methods
+- WebElement usage
+- By.id, By.className, By.linkText
+- Finding elements with XPath
+- Relative Locators
+- Writing basic test scenarios
+
+---
