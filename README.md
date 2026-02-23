@@ -242,3 +242,17 @@ git clone https://github.com/IpekSozbir/SeleniumBeginnerTests.git
 - Writing basic test scenarios
 
 ---
+
+## 📎 Notes
+•⁠  ⁠This project is completely for educational and practice purposes
+•⁠  ⁠At an advanced level:
+    * Page Object Model
+    * Test frameworks
+    * Maven structure
+    can be added and further developed
+•⁠  ⁠The codes are intentionally kept simple
+
+---
+
+## 📝 License
+This project is for personal education and portfolio purposes.
